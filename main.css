@@ -175,8 +175,7 @@ SLIDESHOW
 }
 
 body {
-  color: #ffffff;
-  background-color: #27292d;
+  color: black;
 }
 
 .slider-container {
@@ -206,7 +205,7 @@ body {
   height: 20px;
   width: 20px;
   border-radius: 50%;
-  background-color: white;
+  background-color: black;
   opacity: 0.5;
 }
 
@@ -285,7 +284,7 @@ body {
   font-size: 20px;
   font-family: "karla";
   font-weight: 400;
-  color: #ffffff;
+  color: black;
   -webkit-transition: 500ms cubic-bezier(0.17, 0.67, 0.55, 1.43);
   transition: 500ms cubic-bezier(0.17, 0.67, 0.55, 1.43);
   opacity: 0;
@@ -316,7 +315,7 @@ body {
   display: inline-block;
   vertical-align: middle;
   margin: 0;
-  color: #ffffff;
+  color: black;
 }
 
 .slider-container .slider-content .slider-single .slider-single-likes:hover, .slider-container .slider-content .slider-single .slider-single-likes:focus {
@@ -436,7 +435,7 @@ body {
   display: block;
   right: 100%;
   top: 50%;
-  color: #ffffff;
+  color: black;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   padding: 20px 15px;
@@ -453,7 +452,7 @@ body {
   display: block;
   left: 100%;
   top: 50%;
-  color: #ffffff;
+  color: black;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   padding: 20px 15px;
@@ -499,15 +498,16 @@ HIGHLIGHTS
 .highlights-section {
   margin-top: 100px;
   padding-top: 50px;
-  margin-left: 250px;
+  margin-left: 100px;
   background-color: yellow;
   margin-right: 500px;
-  width: 75%;
+  width: 80%;
+  padding-left: 50px;
 }
 
 .highlights {
   width: 300px;
-  padding: 30px;
+  padding: 20px;
 }
 
 .highlights img {
