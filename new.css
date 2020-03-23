@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 body {
   font-family: 'Bebas Neue', cursive;
-  margin: 10px;
+  margin: 20px;
   padding: 0;
   overflow-x: hidden;
-  overflow-Y: hidden;
+  color: white;
   background-color: #C0DEDE;
 }
 
@@ -16,7 +16,7 @@ body {
   -ms-grid-rows: 40% 50% 10%;
       grid-template-rows: 40% 50% 10%;
       grid-template-areas: "Logo Background Background Background" "Nav Background Background Background" "Border Border Border Border";
-  height: 98vh;
+  height: 100vh;
 }
 
 .Logo {
@@ -271,36 +271,36 @@ li a:hover {
 }
 
 .container:hover .previews .preview-image:nth-child(1) {
-  -webkit-transform: rotate(2deg) translate(-120px, -80px);
-          transform: rotate(2deg) translate(-120px, -80px);
+  -webkit-transform: rotate(5deg) translate(-120px, -80px);
+          transform: rotate(5deg) translate(-120px, -80px);
   -webkit-transition-delay: .4s;
           transition-delay: .4s;
 }
 
 .container:hover .previews .preview-image:nth-child(2) {
-  -webkit-transform: rotate(-8deg) translate(-120px, 0);
-          transform: rotate(-8deg) translate(-120px, 0);
+  -webkit-transform: rotate(5deg) translate(-120px, 0);
+          transform: rotate(5deg) translate(-120px, 0);
   -webkit-transition-delay: .45s;
           transition-delay: .45s;
 }
 
 .container:hover .previews .preview-image:nth-child(3) {
-  -webkit-transform: rotate(-6deg) translate(-40px, 100px);
-          transform: rotate(-6deg) translate(-40px, 100px);
+  -webkit-transform: rotate(6deg) translate(-40px, 100px);
+          transform: rotate(6deg) translate(-40px, 100px);
   -webkit-transition-delay: .55s;
           transition-delay: .55s;
 }
 
 .container:hover .previews .preview-image:nth-child(4) {
-  -webkit-transform: rotate(-4deg) translate(130px, 70px);
-          transform: rotate(-4deg) translate(130px, 70px);
+  -webkit-transform: rotate(6deg) translate(130px, 70px);
+          transform: rotate(6deg) translate(130px, 70px);
   -webkit-transition-delay: .5s;
           transition-delay: .5s;
 }
 
 .container:hover .previews .preview-image:nth-child(5) {
-  -webkit-transform: rotate(-9deg) translate(120px, -50px);
-          transform: rotate(-9deg) translate(120px, -50px);
+  -webkit-transform: rotate(9deg) translate(120px, -50px);
+          transform: rotate(9deg) translate(120px, -50px);
   -webkit-transition-delay: .6s;
           transition-delay: .6s;
 }
