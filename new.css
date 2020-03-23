@@ -271,36 +271,36 @@ li a:hover {
 }
 
 .container:hover .previews .preview-image:nth-child(1) {
-  -webkit-transform: rotate(-6deg) translate(-120px, -80px);
-          transform: rotate(-6deg) translate(-120px, -80px);
+  -webkit-transform: rotate(-7deg) translate(-120px, -80px);
+          transform: rotate(-7deg) translate(-120px, -80px);
   -webkit-transition-delay: .4s;
           transition-delay: .4s;
 }
 
 .container:hover .previews .preview-image:nth-child(2) {
-  -webkit-transform: rotate(-5deg) translate(-120px, 0);
-          transform: rotate(-5deg) translate(-120px, 0);
+  -webkit-transform: rotate(-8deg) translate(-120px, 0);
+          transform: rotate(-8deg) translate(-120px, 0);
   -webkit-transition-delay: .45s;
           transition-delay: .45s;
 }
 
 .container:hover .previews .preview-image:nth-child(3) {
-  -webkit-transform: rotate(10deg) translate(-40px, 100px);
-          transform: rotate(10deg) translate(-40px, 100px);
+  -webkit-transform: rotate(-10deg) translate(-40px, 100px);
+          transform: rotate(-10deg) translate(-40px, 100px);
   -webkit-transition-delay: .55s;
           transition-delay: .55s;
 }
 
 .container:hover .previews .preview-image:nth-child(4) {
-  -webkit-transform: rotate(-10deg) translate(130px, 70px);
-          transform: rotate(-10deg) translate(130px, 70px);
+  -webkit-transform: rotate(-2deg) translate(130px, 70px);
+          transform: rotate(-2deg) translate(130px, 70px);
   -webkit-transition-delay: .5s;
           transition-delay: .5s;
 }
 
 .container:hover .previews .preview-image:nth-child(5) {
-  -webkit-transform: rotate(9deg) translate(120px, -50px);
-          transform: rotate(9deg) translate(120px, -50px);
+  -webkit-transform: rotate(-10deg) translate(120px, -50px);
+          transform: rotate(-10deg) translate(120px, -50px);
   -webkit-transition-delay: .6s;
           transition-delay: .6s;
 }
@@ -416,7 +416,7 @@ li a:hover {
   }
   .social {
     float: left;
-    padding: 30px;
+    padding: 20px;
     font-size: 15px;
   }
   .Background {
