@@ -4,6 +4,8 @@ body {
   margin: 10px;
   padding: 0;
   overflow-x: hidden;
+  overflow-Y: hidden;
+  background-color: #C0DEDE;
 }
 
 .grid-container {
@@ -97,6 +99,11 @@ li a:hover {
   padding: 0;
   margin-left: -150px;
   margin-top: 100px;
+}
+
+.Title h1 span {
+  text-decoration: underline;
+  margin-left: -40px;
 }
 
 .Area {
@@ -260,36 +267,36 @@ li a:hover {
 }
 
 #container:hover .previews .preview-image:nth-child(1) {
-  -webkit-transform: rotate(-10deg) translate(-120px, -80px);
-          transform: rotate(-10deg) translate(-120px, -80px);
+  -webkit-transform: rotate(10deg) translate(-120px, -80px);
+          transform: rotate(10deg) translate(-120px, -80px);
   -webkit-transition-delay: .4s;
           transition-delay: .4s;
 }
 
 #container:hover .previews .preview-image:nth-child(2) {
-  -webkit-transform: rotate(-7deg) translate(-120px, 0);
-          transform: rotate(-7deg) translate(-120px, 0);
+  -webkit-transform: rotate(9deg) translate(-120px, 0);
+          transform: rotate(9deg) translate(-120px, 0);
   -webkit-transition-delay: .45s;
           transition-delay: .45s;
 }
 
 #container:hover .previews .preview-image:nth-child(3) {
-  -webkit-transform: rotate(-7deg) translate(-40px, 100px);
-          transform: rotate(-7deg) translate(-40px, 100px);
+  -webkit-transform: rotate(4deg) translate(-40px, 100px);
+          transform: rotate(4deg) translate(-40px, 100px);
   -webkit-transition-delay: .55s;
           transition-delay: .55s;
 }
 
 #container:hover .previews .preview-image:nth-child(4) {
-  -webkit-transform: rotate(5deg) translate(130px, 70px);
-          transform: rotate(5deg) translate(130px, 70px);
+  -webkit-transform: rotate(0deg) translate(130px, 70px);
+          transform: rotate(0deg) translate(130px, 70px);
   -webkit-transition-delay: .5s;
           transition-delay: .5s;
 }
 
 #container:hover .previews .preview-image:nth-child(5) {
-  -webkit-transform: rotate(2deg) translate(120px, -50px);
-          transform: rotate(2deg) translate(120px, -50px);
+  -webkit-transform: rotate(-10deg) translate(120px, -50px);
+          transform: rotate(-10deg) translate(120px, -50px);
   -webkit-transition-delay: .6s;
           transition-delay: .6s;
 }
@@ -383,6 +390,11 @@ li a:hover {
     -ms-grid-column: 1;
     grid-area: Nav;
   }
+  .Nav li a {
+    margin-left: 10%;
+    font-size: 1.5rem;
+    margin-top: 10%;
+  }
   .Border {
     -ms-grid-row: 3;
     -ms-grid-column: 1;
@@ -418,6 +430,9 @@ li a:hover {
     margin-top: 50px;
     margin-left: -80px;
   }
+  .Title h1 span {
+    margin-left: -20px;
+  }
   .Info {
     display: -ms-grid;
     display: grid;
@@ -441,7 +456,7 @@ li a:hover {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 300px;
+    margin-top: 250px;
   }
   .Area {
     -ms-grid-row: 1;
