@@ -144,8 +144,8 @@
   .grid-container {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 20% 25% 25% 25% 5%;
-        grid-template-columns: 20% 25% 25% 25% 5%;
+    -ms-grid-columns: 30% 20% 20% 25% 5%;
+        grid-template-columns: 30% 20% 20% 25% 5%;
     -ms-grid-rows: 45% 45% 10%;
         grid-template-rows: 45% 45% 10%;
         grid-template-areas: "Logo Header Header Header Border-Side" "Navi Header Header Header Border-Side" "Nav Toolbar Toolbar Toolbar Border-Side";
@@ -214,8 +214,8 @@
   .grid-container2 {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 23% 75% 2%;
-        grid-template-columns: 23% 75% 2%;
+    -ms-grid-columns: 30% 65% 0%;
+        grid-template-columns: 30% 65% 0%;
     -ms-grid-rows: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
         grid-template-areas: "Navi Shopping Border-Side" "Navi Shopping Border-Side" "Sorting Shopping Border-Side" "Sorting Shopping Border-Side";
@@ -304,10 +304,13 @@
         -ms-flex: 50%;
             flex: 50%;
     max-width: 50%;
-    margin-left: 0;
+    margin-left: 10px;
   }
   .column img {
-    width: 80%;
+    width: 100%;
+  }
+  .caption {
+    font-size: 1.3rem;
   }
 }
 

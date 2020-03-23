@@ -271,29 +271,29 @@ li a:hover {
 }
 
 .container:hover .previews .preview-image:nth-child(1) {
-  -webkit-transform: rotate(5deg) translate(-120px, -80px);
-          transform: rotate(5deg) translate(-120px, -80px);
+  -webkit-transform: rotate(-6deg) translate(-120px, -80px);
+          transform: rotate(-6deg) translate(-120px, -80px);
   -webkit-transition-delay: .4s;
           transition-delay: .4s;
 }
 
 .container:hover .previews .preview-image:nth-child(2) {
-  -webkit-transform: rotate(5deg) translate(-120px, 0);
-          transform: rotate(5deg) translate(-120px, 0);
+  -webkit-transform: rotate(-5deg) translate(-120px, 0);
+          transform: rotate(-5deg) translate(-120px, 0);
   -webkit-transition-delay: .45s;
           transition-delay: .45s;
 }
 
 .container:hover .previews .preview-image:nth-child(3) {
-  -webkit-transform: rotate(6deg) translate(-40px, 100px);
-          transform: rotate(6deg) translate(-40px, 100px);
+  -webkit-transform: rotate(10deg) translate(-40px, 100px);
+          transform: rotate(10deg) translate(-40px, 100px);
   -webkit-transition-delay: .55s;
           transition-delay: .55s;
 }
 
 .container:hover .previews .preview-image:nth-child(4) {
-  -webkit-transform: rotate(6deg) translate(130px, 70px);
-          transform: rotate(6deg) translate(130px, 70px);
+  -webkit-transform: rotate(-10deg) translate(130px, 70px);
+          transform: rotate(-10deg) translate(130px, 70px);
   -webkit-transition-delay: .5s;
           transition-delay: .5s;
 }
@@ -412,6 +412,12 @@ li a:hover {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
     grid-area: Border;
+    padding-left: 0px;
+  }
+  .social {
+    float: left;
+    padding: 30px;
+    font-size: 15px;
   }
   .Background {
     display: -ms-grid;
