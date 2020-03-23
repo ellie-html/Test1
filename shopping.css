@@ -222,11 +222,13 @@
   .filter-btn {
     font-size: 1rem;
     margin: 5px;
+    margin-top: -10px;
   }
   .sort-btn {
     margin-top: -20px;
     font-size: 1rem;
     margin: 5px;
+    margin-top: -10px;
   }
   .Title h1 {
     color: white;
