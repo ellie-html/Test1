@@ -1,7 +1,4 @@
 body {
-  font-family: 'Bebas Neue', cursive;
-  margin: 20px;
-  padding: 0;
   overflow-x: hidden;
 }
 
@@ -112,6 +109,7 @@ body {
       grid-template-rows: 1fr 1fr 1fr 1fr;
       grid-template-areas: "Nav Shopping Border-Side" "Nav Shopping Border-Side" "Sorting Shopping Border-Side" "Sorting Shopping Border-Side";
   height: 250vh;
+  overflow-x: hidden;
 }
 
 .Navi {
@@ -411,6 +409,17 @@ body {
   .Sorting h3 {
     font-size: 1.5rem;
     margin-top: 80%;
+  }
+  .sizes {
+    margin-left: 25%;
+    margin-top: 20%;
+    font-size: 1.3rem;
+  }
+  .slider {
+    margin: 50px;
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+    margin-left: 0%;
   }
   .Border-Side {
     -ms-grid-row: 1;
