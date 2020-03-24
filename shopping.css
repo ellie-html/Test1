@@ -137,6 +137,33 @@ body {
   margin-top: 10%;
 }
 
+li a:hover {
+  background-color: #555;
+  border-bottom: 10px solid #C0DEDE;
+}
+
+.active {
+  background-color: #555;
+  border-bottom: 10px solid #C0DEDE;
+}
+
+.second-nav li a {
+  font-size: 1rem;
+  text-align: right;
+  padding-right: 50px;
+  text-decoration: underline;
+  border-bottom: 5px solid transparent;
+}
+
+.second-nav li a:hover {
+  border-bottom: 5px solid pink;
+}
+
+.second-active {
+  background-color: #C0DEDE;
+  color: #170F04;
+}
+
 .Sorting {
   -ms-grid-row: 3;
   -ms-grid-row-span: 2;
@@ -282,6 +309,11 @@ body {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
+  border: 5px solid transparent;
+}
+
+.dot:hover {
+  border: 5px solid white;
 }
 
 .Border-Side {
@@ -401,6 +433,7 @@ body {
     -ms-grid-row-span: 2;
     -ms-grid-column: 1;
     grid-area: Sorting;
+    margin-top: -800px;
   }
   .Sorting h2 {
     font-size: 2rem;
@@ -408,7 +441,7 @@ body {
   }
   .Sorting h3 {
     font-size: 1.5rem;
-    margin-top: 80%;
+    margin-top: 200px;
   }
   .sizes {
     margin-left: 25%;
@@ -420,6 +453,26 @@ body {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
     margin-left: 0%;
+  }
+  .slidecontainer {
+    width: 300px;
+    margin-left: -90px;
+    margin-top: 150px;
+  }
+  .slidecontainer p {
+    width: 300px;
+    margin-left: -115px;
+    margin-top: 150px;
+  }
+  .dot {
+    margin: 20px;
+    margin-left: 40%;
+    height: 20px;
+    width: 20px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    border: 5px solid transparent;
   }
   .Border-Side {
     -ms-grid-row: 1;
@@ -449,6 +502,9 @@ body {
     margin-left: 10%;
     font-size: 1.5rem;
     margin-top: 30%;
+  }
+  .second-nav li a {
+    font-size: 0.9rem;
   }
 }
 
