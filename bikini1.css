@@ -1,0 +1,182 @@
+.grid-container {
+  background-image: url(https://images.unsplash.com/photo-1488842817413-6e197d6d8d53?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1384&q=80);
+}
+
+.grid-container2 {
+  height: 100vh;
+}
+
+.Navi {
+  height: 100vh;
+}
+
+.Sorting {
+  display: none;
+}
+
+.grid-container3 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 40% 40%;
+      grid-template-columns: 20% 40% 40%;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr;
+      grid-template-areas: "Bik-Img1 Bikini Bik-Title" "Bik-Img2 Bikini Bik-Txt" "Bik-Img3 Bikini Bik-Info" "Bik-Img4 Bikini Bik-Btn";
+}
+
+.Bikini {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 4;
+  -ms-grid-column: 2;
+  grid-area: Bikini;
+  background-color: red;
+  outline: 10px solid #170F04;
+  outline-offset: -50px;
+  background-image: url(https://cdn-img.prettylittlething.com/0/6/e/7/06e7e903be3b3876ee50a979110e329211af2153_cma5721_1.jpg?imwidth=1024);
+  background-size: cover;
+  height: 90vh;
+  border: 10px solid #C0DEDE;
+}
+
+.Bik-Img1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: Bik-Img1;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(https://cdn-img.prettylittlething.com/c/e/b/5/ceb52954b5ecdb65f2dff68096752285ba2673cd_cma5721_2.jpg?imwidth=1024);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://cdn-img.prettylittlething.com/c/e/b/5/ceb52954b5ecdb65f2dff68096752285ba2673cd_cma5721_2.jpg?imwidth=1024);
+  background-size: cover;
+  margin: 5px;
+  -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Bik-Img2 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: Bik-Img2;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(https://cdn-img.prettylittlething.com/4/f/3/6/4f36f25ee49df1f991ca2c53e4286133566c693b_cma5721_4.jpg?imwidth=1024);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://cdn-img.prettylittlething.com/4/f/3/6/4f36f25ee49df1f991ca2c53e4286133566c693b_cma5721_4.jpg?imwidth=1024);
+  background-size: cover;
+  margin: 5px;
+  -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Bik-Img3 {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  grid-area: Bik-Img3;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(https://cdn-img.prettylittlething.com/c/3/5/7/c357f81fe3c97b376ab86559c378457b1785c8f4_cma5721_5.jpg?imwidth=1024);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://cdn-img.prettylittlething.com/c/3/5/7/c357f81fe3c97b376ab86559c378457b1785c8f4_cma5721_5.jpg?imwidth=1024);
+  background-size: cover;
+  margin: 5px;
+  -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Bik-Img4 {
+  -ms-grid-row: 4;
+  -ms-grid-column: 1;
+  grid-area: Bik-Img4;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(https://cdn-img.prettylittlething.com/c/e/b/5/ceb52954b5ecdb65f2dff68096752285ba2673cd_cma5721_2.jpg?imwidth=1024);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(https://cdn-img.prettylittlething.com/c/e/b/5/ceb52954b5ecdb65f2dff68096752285ba2673cd_cma5721_2.jpg?imwidth=1024);
+  background-size: cover;
+  margin: 5px;
+  -webkit-box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Bik-Title {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: Bik-Title;
+  background-color: pink;
+}
+
+.Bik-Txt {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: Bik-Txt;
+  background-color: orange;
+}
+
+.Bik-Info {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: Bik-Info;
+  background-color: blueviolet;
+}
+
+.Bik-Btn {
+  -ms-grid-row: 4;
+  -ms-grid-column: 3;
+  grid-area: Bik-Btn;
+  background-color: blue;
+}
+
+@media screen and (max-width: 1024px) {
+  .grid-container3 {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 20% 80%;
+        grid-template-columns: 20% 80%;
+    -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: "Bik-Img1 Bikini" "Bik-Img2 Bikini" "Bik-Img3 Bikini" "Bik-Img4 Bikini" "Bik-Title Bik-Title" "Bik-Txt Bik-Txt" "Bik-Info Bik-Info" "Bik-Btn Bik-Btn";
+  }
+  .Bikini {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 4;
+    -ms-grid-column: 2;
+    grid-area: Bikini;
+    height: 50vh;
+    background-position: center;
+    outline: 10px solid transparent;
+    background-size: cover;
+  }
+  .Bik-Img1 {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    grid-area: Bik-Img1;
+  }
+  .Bik-Img2 {
+    -ms-grid-row: 2;
+    -ms-grid-column: 1;
+    grid-area: Bik-Img2;
+  }
+  .Bik-Img3 {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+    grid-area: Bik-Img3;
+  }
+  .Bik-Img4 {
+    -ms-grid-row: 4;
+    -ms-grid-column: 1;
+    grid-area: Bik-Img4;
+  }
+  .Bik-Title {
+    -ms-grid-row: 5;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: Bik-Title;
+  }
+  .Bik-Txt {
+    -ms-grid-row: 6;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: Bik-Txt;
+  }
+  .Bik-Info {
+    -ms-grid-row: 7;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: Bik-Info;
+  }
+  .Bik-Btn {
+    -ms-grid-row: 8;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-area: Bik-Btn;
+  }
+}
+/*# sourceMappingURL=bikini1.css.map */
